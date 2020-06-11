@@ -14,8 +14,8 @@ This App provides IP access for the camera, example of this route http://192.168
 When starting the Phone_Cam.py program, the DroidCam app must be initialized, then it can be closed and the Python or Spyder display screen will continue to output the video in real time with RGB color scale.
 
 The .py has 2 options to view the video in real time, through the main camera of the phone or through the computer camera. This differs in access, which is:
-(1) cam = cv.VideoCapture ("http://192.168.1.92:4747") with access from the main camera of the mobile phone.
-(2) cam = cv.VideoCapture (0) for the computer camera. Note: the number 0 may vary if you have external cameras connected via USB or network.
+(1) cam=cv.VideoCapture ("http://192.168.1.92:4747") with access from the main camera of the mobile phone.
+(2) cam=cv.VideoCapture (0) for the computer camera. Note: the number 0 may vary if you have external cameras connected via USB or network.
 
 
 
@@ -31,5 +31,5 @@ Esta App proporciona un acceso IP para la cámara, ejemplo de esta ruta http://1
 Al iniciar el programa Phone_Cam.py, la app DroidCam debe estar inicializada, luego puede ser cerrado y la pantalla de visualización de Python o Spyder seguirá emitiendo el video en tiempo real con escala de colores RGB.
 
 El .py tiene 2 opciones para visualizar el video en tiempo real, por medio de la cámara principal del teléfono o por la cámara del computador. Esto se diferencia en el acceso, que es:
-(1) cam = cv.VideoCapture("http://192.168.1.92:4747") con el acceso de la cámara principal del teléfono móvil.
-(2) cam = cv.VideoCapture(0) para la cámara del computador. Nota: el número 0 puede variar en caso de tener cámaras externas conectadas por medio de USB o por red.
+(1) cam=cv.VideoCapture("http://192.168.1.92:4747") con el acceso de la cámara principal del teléfono móvil.
+(2) cam=cv.VideoCapture(0) para la cámara del computador. Nota: el número 0 puede variar en caso de tener cámaras externas conectadas por medio de USB o por red.
