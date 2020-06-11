@@ -3,6 +3,7 @@ OpenCV + Technologies Smart
 
 
 [English]
+
 The OpenCV library must be installed.
 For Windows https://docs.opencv.org/master/d3/d52/tutorial_windows_install.html.
 For MacOs https://docs.opencv.org/master/d0/db2/tutorial_macos_install.html.
@@ -17,6 +18,7 @@ The .py has 2 options to view the video in real time, through the main camera of
 (2) cam = cv.VideoCapture (0) for the computer camera. Note: the number 0 may vary if you have external cameras connected via USB or network.
 
 [Spanish]
+
 Se debe instalar la librería OpenCV. 
 Para Windows https://docs.opencv.org/master/d3/d52/tutorial_windows_install.html.
 Para MacOs https://docs.opencv.org/master/d0/db2/tutorial_macos_install.html.
