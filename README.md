@@ -17,6 +17,8 @@ The .py has 2 options to view the video in real time, through the main camera of
 (1) cam = cv.VideoCapture ("http://192.168.1.92:4747") with access from the main camera of the mobile phone.
 (2) cam = cv.VideoCapture (0) for the computer camera. Note: the number 0 may vary if you have external cameras connected via USB or network.
 
+
+
 [Spanish]
 
 Se debe instalar la librería OpenCV. 
